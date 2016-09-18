@@ -1,1 +1,446 @@
-<h1>Jello Gourd!</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>I American Artist | Eric Denton </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LINKS/CDNS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- Latest compiled and minified BootstrapCSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    
+    <!-- Latest compiled and minified AnimateCSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- http://ionicons.com/ icon sourcing -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- GOOGLE FONT EFFECTS (not stable across all browsers) -->
+    <link href='http://fonts.googleapis.com/css?family=Black+Ops+One&effect=3d|3d-float|anaglyph|brick-sign|canvas-print|crackle|decaying|destruction|distressed|distressed-wood|emboss|fire|fire-animation|fragile|grass|ice|mitosis|neon|outline|putting-green|scuffed-steel|shadow-multiple|splintered|static|stonewash|vintage|wallpaper' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  
+  <body>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "NAV" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+              <!-- SCREENREADER TEXT -->
+            <span class="sr-only">IAmEricAnArtist NavBurger</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#splash"> IAMERICANARTIST </a>
+        </div>
+        <div class="navbar-collapse collapse" id="bs-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="page-scroll " href="#one">Intro</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#two">Highlights</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#three">Gallery</a>
+            </li>
+            <!-- <li>
+              <a class="page-scroll" href="#four">Features</a>
+            </li> -->
+            <li>
+              <a class="page-scroll" href="#last">Contact</a>
+            </li>
+            <li>
+              <a class="page-scroll" data-toggle="modal" title="About" href="#aboutModal">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "SPLASH" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <header id="splash">
+      <div class="header-content">
+        <div class="inner">
+          <h1 class="chunkyText">I A M E R I C A N A R T I S T</h1>
+          <!-- <h1 class="chunkyText font-effect-destruction">I A M E R I C A N A R T I S T</h1> -->
+          <br/>
+          <h4>I want to make things that make people happy.</h4>
+          <hr>
+          <!-- <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp;  --><a href="#one" class="btn btn-primary page-scroll">How?</a>
+        </div>
+      </div>
+    </header>
+    
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~ Section "ONE": HELP ~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="bg-primary" id="one">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+            <h2 class="margin-top-0 text-primary">Help me help you!</h2>
+            <!-- <h2 class="margin-top-0 text-primary font-effect-stonewash">Built On The Bootstrap Grid</h2> -->
+            <br>
+            <p class="text-faded">
+                I am never satisfied with "this is how we do it, and how we've been doing it for years." Throughout my career, I have tried my best to improve things I came across. Updated Photoshop "recipes," streamlined cataloging processes, added scripting to make forms more legible and visually appealing, cleaned up "good enoughs," and saved lots of wasted time and money.<br/><br/>
+                I am good at finding the things that should be fixed. Let me learn and work with you, and see what we can fix along the way.<br/><br/>
+            </p>
+            <a href="#three" class="btn btn-default btn-xl page-scroll">What I Am Good At</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~ Section "TWO": HIGHLIGHTS ~~~~~~~~~~~~~~~~~~~~~-->
+    <section id="two">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="margin-top-0 text-primary">Flexible Layouts</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class="feature">
+              <i class="icon-med ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
+              <h3>Responsive</h3>
+              <p class="text-muted">Your site looks good everywhere</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class="feature">
+              <i class="icon-med ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+              <h3>Customizable</h3>
+              <p class="text-muted">Easy to theme and customize with SASS</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class="feature">
+              <i class="icon-med ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
+              <h3>Consistent</h3>
+              <p class="text-muted">A mature, well-tested, stable codebase</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~ Section "THREE": GALLERY ~~~~~~~~~~~~~~~~~~~~~~-->
+    \/\/\/ Us here!
+    <!-- <section id="three" class="no-padding">
+      <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="col-lg-4 col-sm-6">
+            <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="https://raw.githubusercontent.com/iamericanartist/spa-event-listeners-wysiwyg/master/images/wysiwyg.jpg">
+              <img src="https://raw.githubusercontent.com/iamericanartist/spa-event-listeners-wysiwyg/master/images/wysiwyg.jpg" class="img-responsive" alt="Image 1">
+              <div class="gallery-box-caption">
+                <div class="gallery-box-content">
+                  <div>
+                    <i class="icon-med ion-ios-search"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="https://github.com/iamericanartist/gauntlet-slappy-bird/blob/master/img/EXECUTiveOrdersSCREEN.jpg?raw=true">
+              <img src="https://github.com/iamericanartist/gauntlet-slappy-bird/blob/master/img/EXECUTiveOrdersSCREEN.jpg?raw=true" class="img-responsive" alt="Image 2">
+              <div class="gallery-box-caption">
+                <div class="gallery-box-content">
+                  <div>
+                    <i class="icon-med ion-ios-search"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="https://github.com/iamericanartist/mj-math-tests-jasmine/blob/master/images/mathTests.jpg?raw=true">
+              <img src="https://github.com/iamericanartist/mj-math-tests-jasmine/blob/master/images/mathTests.jpg?raw=true" class="img-responsive" alt="Image 3">
+              <div class="gallery-box-caption">
+                <div class="gallery-box-content">
+                  <div>
+                    <i class="icon-med ion-ios-search"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="https://github.com/iamericanartist/Capstone-Oweski/blob/master/img/oweskiDisplay2.jpg?raw=true">
+              <img src="https://github.com/iamericanartist/Capstone-Oweski/blob/master/img/oweskiDisplay2.jpg?raw=true" class="img-responsive" alt="Image 4">
+              <div class="gallery-box-caption">
+                <div class="gallery-box-content">
+                  <div>
+                    <i class="icon-med ion-ios-search"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div> -->
+          BRING US BACK ^^
+
+          <!-- <div class="col-lg-4 col-sm-6">
+            <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-new-york-crosswalk-nabeel-1440x960.jpg">
+              <img src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-new-york-crosswalk-nabeel-1440x960.jpg" class="img-responsive" alt="Image 5">
+              <div class="gallery-box-caption">
+                <div class="gallery-box-content">
+                  <div>
+                    <i class="icon-med ion-ios-search"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div> -->
+          <!-- <div class="col-lg-4 col-sm-6">
+            <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-clothes-exotic-travel-nabeel-1440x960.jpg">
+              <img src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-clothes-exotic-travel-nabeel-1440x960.jpg" class="img-responsive" alt="Image 6">
+              <div class="gallery-box-caption">
+                <div class="gallery-box-content">
+                  <div>
+                    <i class="icon-med ion-ios-search"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div> -->
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ UNSURE YET... ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- <section class="container-fluid" id="four">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <h2 class="text-center text-primary">Features</h2>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Simple</h3>
+                    <div class="media-body media-middle">
+                        <p>What could be easier? Get started fast with this landing page starter theme.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-med ion-ios-bolt-outline"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <h3>Free</h3>
+                    <div class="media-left">
+                        <a href="#alertModal" data-toggle="modal" data-target="#alertModal"><i class="icon-med ion-ios-cloud-download-outline"></i></a>
+                    </div>
+                    <div class="media-body media-middle">
+                        <p>Yes, please. Grab it for yourself, and make something awesome with this.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Unique</h3>
+                    <div class="media-body media-middle">
+                        <p>Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-med ion-ios-snowy"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <h3>Popular</h3>
+                    <div class="media-left">
+                        <i class="icon-med ion-ios-heart-outline"></i>
+                    </div>
+                    <div class="media-body media-middle">
+                        <p>There's good reason why Bootstrap is the most used frontend framework in the world.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Tested</h3>
+                    <div class="media-body media-middle">
+                        <p>Bootstrap is matured and well-tested. It's a stable codebase that provides consistency.</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-med ion-ios-flask-outline"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ UNSURE YET... ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <aside class="bg-dark">
+      <div class="container text-center">
+        <div class="call-to-action">
+          <h2 class="text-primary">Get Started</h2>
+          <a href="http://www.bootstrapzero.com/bootstrap-template/landing-zero" target="ext" class="btn btn-default btn-lg wow flipInX">Free Download</a>
+        </div>
+        <br>
+        <hr/>
+        <br>
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div class="row">
+              <h6 class="wide-space text-center">BOOTSTRAP IS BASED ON THESE STANDARDS</h6>
+              <div class="col-sm-3 col-xs-6 text-center">
+                <i class="icon-med ion-social-html5-outline" title="html 5"></i>
+              </div>
+              <div class="col-sm-3 col-xs-6 text-center">
+                <i class="icon-med ion-social-sass" title="sass"></i>
+              </div>
+              <div class="col-sm-3 col-xs-6 text-center">
+                <i class="icon-med ion-social-javascript-outline" title="javascript"></i>
+              </div>
+              <div class="col-sm-3 col-xs-6 text-center">
+                <i class="icon-med ion-social-css3-outline" title="css 3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CONTACT ME ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section id="last">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
+            <hr class="primary">
+            <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
+          </div>
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <form class="contact-form row">
+              <div class="col-md-4">
+                <label></label>
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="col-md-4">
+                <label></label>
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="col-md-4">
+                <label></label>
+                <input type="text" class="form-control" placeholder="Phone">
+              </div>
+              <div class="col-md-12">
+                <label></label>
+                <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
+              </div>
+              <div class="col-md-4 col-md-offset-4">
+                <label></label>
+                <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 chunkyText">
+            <h4>Follow</h4>
+            <ul class="list-inline">
+              <li>
+                <a rel="nofollow" href="" title="Twitter"><i class="icon-med ion-social-github-outline"></i></a>
+              </li>
+              <li>
+                <a rel="nofollow" href="" title="Facebook"><i class="icon-med ion-social-linkedin-outline"></i></a>
+              </li>
+              <li>
+                <a rel="nofollow" href="" title="Facebook"><i class="icon-med ion-social-codepen-outline"></i></a>
+              </li>
+              <li>
+                <a rel="nofollow" href="" title="Dribble"><i class="icon-med ion-social-instagram-outline"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="//placehold.it/1200x700/222?text=..." id="galleryImage" class="img-responsive" />
+          <p>
+            <br/>
+            <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MODAL: ABOUT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h2 class="text-center">Landing Zero Theme</h2>
+          <h5 class="text-center">
+              A free, responsive landing page theme built by BootstrapZero.
+          </h5>
+          <p class="text-justify">
+              This is a single-page Bootstrap template with a sleek dark/grey color scheme, accent color and smooth scrolling.
+              There are vertical content sections with subtle animations that are activated when scrolled into view using the jQuery WOW plugin. There is also a gallery with modals
+              that work nicely to showcase your work portfolio. Other features include a contact form, email subscribe form, multi-column footer. Uses Questrial Google Font and Ionicons.
+          </p>
+          <p class="text-center"><a href="http://www.bootstrapzero.com">Download at BootstrapZero</a></p>
+          <br/>
+          <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK </button>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MODAL: ALERT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h2 class="text-center">Nice Job!</h2>
+          <p class="text-center">You clicked the button, but it doesn't actually go anywhere because this is only a demo.</p>
+          <p class="text-center"><a href="http://www.bootstrapzero.com">Learn more at BootstrapZero</a></p>
+          <br/>
+          <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCRIPTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- OLD? UNNEEDED -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script> -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+
+    <!--scripts loaded here from cdn for performance -->
+    <!-- Latest compiled and minified jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- EASING plugin for jQuery (http://gsgd.co.uk/sandbox/jquery/easing/) -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- WOW for use with ANIMATE.CSS (http://mynameismatthieu.com/WOW/docs.html) -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
