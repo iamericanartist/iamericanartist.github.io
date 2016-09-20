@@ -71,7 +71,10 @@ p {
 }
 
 .bg-primary {
-  background-color: #263238;
+  background-color: #00505f;
+  padding: 70px 20px 20px;
+  z-index: 100;
+
 }
 
 .bg-dark {
@@ -131,7 +134,42 @@ p {
 
 section {
   padding: 70px 0;
+
+
 }
+
+.sectionOneAngle {
+  height: 140px;
+  margin-top: -70px;
+  z-index: -1;
+  /*background-color: rgba(255,100,100,.5);*/
+  background-color: #00505f;
+  animation: skew 8s infinite;
+}
+@keyframes skew {
+  0% {
+    transform: skewY(-2.5deg);
+  }
+  50% {
+    transform: skewY(2.5deg);
+  }
+  100% {
+    transform: skewY(-2.5deg);
+  }
+}
+
+
+
+
+
+/*.sectionTwo  {
+  box-shadow: 0 -10px 2px -10px rgba(0,0,0,0.5), 
+              0 -10px 30px -5px rgba(0,0,0,0.6);
+}
+*/
+
+
+
 
 aside {
   padding: 50px 0;
@@ -298,6 +336,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   -webkit-filter:saturate(.5);
+  box-shadow: 0 0px 10px 0px rgba(0,0,0,0.5), 
+              0 4px 40px 5px rgba(0,0,0,0.5);
 }
 
 header .header-content {
