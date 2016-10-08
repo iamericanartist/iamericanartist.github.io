@@ -208,6 +208,13 @@ footer {
   padding: 15px;
 }
 
+.list-plain{
+  display:inline;
+  list-style: none; 
+  text-decoration: none; 
+  text-align: center;
+  font-size: 1.2vmax;
+}
 .socialFooterStuff{
   font-size: 1.5vmax;
   padding: 0 15%;
