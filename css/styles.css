@@ -93,6 +93,10 @@ p {
   font-size: 30px;
   line-height: 18px;
 }
+.icon-large {
+  font-size: 50px;
+  line-height: 18px;
+}
 
 .bg-primary {
   background-color: #00505f;
@@ -208,7 +212,7 @@ section {
 }
 
 .techLogos img {
-  margin: 4px;
+  margin: 4px 6px 10px;
   border-radius: 4px;
 }
 
