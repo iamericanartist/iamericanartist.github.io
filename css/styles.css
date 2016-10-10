@@ -80,9 +80,8 @@ p {
 
 
 p {
-  /*font-size: 1rem;*/
   line-height: 1.7;
-  letter-spacing: 1px;
+  letter-spacing: .8px;
   margin-bottom: 20px;
 }
 
@@ -162,6 +161,13 @@ modal-body {
   text-align: left;
 }
 
+.aboutParagraph {
+  line-height: normal;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+  padding: 2%;
+}
+
 
 section {
   padding: 70px 0;
@@ -220,6 +226,16 @@ footer {
   padding: 0 15%;
   letter-spacing: normal;
   margin: -5px auto auto;
+}
+
+.aboutSocial {
+  margin-right: auto;
+  margin-left: auto;
+  display:inline;
+  list-style: none; 
+  text-decoration: none; 
+  text-align: center;
+
 }
 
 .no-padding {
@@ -409,6 +425,18 @@ footer {
   text-align: center;
 }
 
+.gitStuff {
+  text-align: center;
+  
+  padding: 2%;
+}
+.github {
+  margin-top: -30px;
+}
+.githubStuff{
+  text-align: left;
+  
+}
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~  HEADER MEDIA QUERY 768px+  ~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media(min-width:768px) {
