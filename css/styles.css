@@ -688,15 +688,46 @@ img::-moz-selection {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  FEATURETTES  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 30px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
-  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  padding-top: 10px; /* Vertically center images part 1: add padding above and below text. */
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
 }
-.featurette-image {
-  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+.squaredUp {
+  margin-right: 10px;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px 0 20px 0;
 }
+.round2Right {
+  margin-right: 20px;
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 1000px;
+  shape-outside: circle(50%);
+  margin-top: 30px;
+}
+.round2Left {
+  margin-left: 20px;
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 1000px;
+  shape-outside: circle(50%);
+  margin-top: 30px;
+}
+
+
+.featurette-image {
+  width: auto;
+  margin-left: -50%;
+  height: 100%;
+}
+
+
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */
 .featurette-image.pull-left {
@@ -708,8 +739,22 @@ img::-moz-selection {
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  /*font-size: 50px;*/
+  margin-left: 5%;
   font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+  line-height: 1.1;
+}
+.featRight{
+  shape-outside: circle(50%);
+  text-align: center;
+}
+.featLeft{
+  shape-outside: circle(50%);
+  text-align: center;
+}
+
+
+p.lead {
+  text-align: justify;
+  text-justify: inter-word; 
+  margin: 0 5% 10px;
 }
