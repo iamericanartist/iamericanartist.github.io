@@ -1,29 +1,37 @@
 
-# Eric Denton Personal Website
-## [iamericanartist.github.io](https://iamericanartist.github.io/)
+# Eric Denton Personal Website  
+## [iamericanartist.github.io](https://iamericanartist.github.io/)  
 
 ### [NSS](http://nashvillesoftwareschool.com/) Cohort D14  
-Instructors - [Joe Shephard](https://github.com/JoeShep)(Front-End) and [Scott Humphries](https://github.com/sscotth)(Back-End)  
-Advisors - [Caitlin Stein](https://github.com/C-Stein), [Callan Morrison](https://github.com/morecallan), and [Christina Young](https://github.com/ChristinaJYoung)
-
-
-
+##### Instructors - [Joe Shephard](https://github.com/JoeShep)(Front-End) and [Scott Humphries](https://github.com/sscotth)(Back-End)  
+##### Advisors - [Caitlin Stein](https://github.com/C-Stein), [Callan Morrison](https://github.com/morecallan), and [Christina Young](https://github.com/ChristinaJYoung)  
 ***
 
-<p align="center"> Social Media:
-  <a rel="nofollow" href="https://github.com/iamericanartist" title="Github"> Github </a> | 
+Thanks for looking! I appreciate your time, and would love to talk shop, grab a beverage, or connect in whatever form suits you. I hope to hear from you soon.
+
+Sincerely,
+
+Eric Denton
+ttyl@iamericanartist.com
+
+
+<p align="center"> 
+  <a rel="nofollow" href="https://github.com/iamericanartist" title="Github"> Github </a>  |  
   <a rel="nofollow" href="https://www.linkedin.com/in/iamericanartist" title="LinkedIn"> LinkedIn </a>  | 
   <a rel="nofollow" href="http://codepen.io/IAmericanArtist/" title="CodePen"> CodePen </a> | 
-  <a rel="nofollow" href="https://www.instagram.com/iamericanartist/" title="Instagram"> Instagram </a>
+  <a rel="nofollow" href="https://www.instagram.com/iamericanartist/" title="Instagram"> Instagram </a> | 
+  <a rel="nofollow" href="http://stackoverflow.com/story/iamericanartist" title="StackOverflow"> Stack Overflow </a> | 
+  <a rel="nofollow" href="https://ericdentonux.wordpress.com/" title="EricDentonUX"> My UX Blog </a> | 
+  <a rel="nofollow" href="https://www.canva.com/iamericanartist" title="Canva"> Canva(Resume) </a>  
 </p>
 
 ***
+
 <div>
-  <div>
   <h3 align="center">Proud Member:</h3>
-    <a href="https://nss-day-cohort-14.github.io/"><img align="center" src="images/GraphicsGroupShotC14.jpg"></a>
-  </div>
+  <a href="https://nss-day-cohort-14.github.io/"><img align="center" src="images/GraphicsGroupShotC14.jpg"></a>
 </div>
+
 
 
 <!-- 
