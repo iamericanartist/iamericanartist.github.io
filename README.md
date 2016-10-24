@@ -2,7 +2,9 @@
 # Eric Denton Personal Website
 ## [iamericanartist.github.io](iamericanartist.github.io)
 
-### [NSS](http://nashvillesoftwareschool.com/) Cohort D14 / Instructors - [Joe Shephard](https://github.com/JoeShep)(Front-End) and [Scott Humphries](https://github.com/sscotth)(Back-End) / Advisors - [Caitlin Stein](https://github.com/C-Stein), [Callan Morrison](https://github.com/morecallan), and [Christina Young](https://github.com/ChristinaJYoung)
+### [NSS](http://nashvillesoftwareschool.com/) Cohort D14  
+Instructors - [Joe Shephard](https://github.com/JoeShep)(Front-End) and [Scott Humphries](https://github.com/sscotth)(Back-End)  
+Advisors - [Caitlin Stein](https://github.com/C-Stein), [Callan Morrison](https://github.com/morecallan), and [Christina Young](https://github.com/ChristinaJYoung)
 
 
 
