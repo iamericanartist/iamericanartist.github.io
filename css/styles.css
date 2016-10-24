@@ -700,6 +700,15 @@ img::-moz-selection {
   overflow: hidden;
   border-radius: 20px 0 20px 0;
 }*/
+.round1Right {
+  margin-right: 20px;
+  width: 15rem;
+  height: 15rem;
+  /*overflow: hidden;*/
+  /*border-radius: 1000px;*/
+  /*shape-outside: circle(50%);*/
+  margin-top: 30px;
+}
 .round2Right {
   margin-right: 20px;
   width: 15rem;
@@ -713,16 +722,22 @@ img::-moz-selection {
   margin-left: 20px;
   width: 15rem;
   height: 15rem;
-  overflow: hidden;
-  border-radius: 1000px;
-  shape-outside: circle(50%);
+  /*overflow: hidden;*/
+  /*border-radius: 1000px;*/
+  /*shape-outside: circle(50%);*/
   margin-top: 30px;
 }
 
+.featurette-image2 {
+  width: auto;
+  /*margin-left: -50%;*/
+  height: 100%;
+}
 
+/* for circular image needs*/
 .featurette-image {
   width: auto;
-  margin-left: -50%;
+  margin-left: -27%;
   height: 100%;
 }
 
