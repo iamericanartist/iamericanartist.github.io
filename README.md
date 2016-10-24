@@ -1,20 +1,19 @@
-# iamericanartist.github.io
 
 # Eric Denton Personal Website
+## [iamericanartist.github.io](iamericanartist.github.io)
 
-### [NSS](http://nashvillesoftwareschool.com/) Cohort D14 / Instructors - [Scott Humphries](https://github.com/sscotth) / Advisors - [Caitlin Stein](https://github.com/C-Stein) & [Callan Morrison](https://github.com/morecallan)
+### [NSS](http://nashvillesoftwareschool.com/) Cohort D14 / Instructors - [Joe Shephard](https://github.com/JoeShep)(Front-End) and [Scott Humphries](https://github.com/sscotth)(Back-End) / Advisors - [Caitlin Stein](https://github.com/C-Stein), [Callan Morrison](https://github.com/morecallan), and [Christina Young](https://github.com/ChristinaJYoung)
 
-<p align="center"><strong>My Personal website <a href="https://iamericanartist.github.io/">IAmEricAnArtist</a></strong></p>
+
 
 ***
 
-
-
-<a rel="nofollow" href="https://github.com/iamericanartist" title="Github">Github</a> 
-<a rel="nofollow" href="https://www.linkedin.com/in/iamericanartist" title="LinkedIn">LinkedIn</a> 
-<a rel="nofollow" href="http://codepen.io/IAmericanArtist/" title="CodePen">CodePen</a>
-<a rel="nofollow" href="https://www.instagram.com/iamericanartist/" title="Instagram">Instagram</a>
-
+<p align="center"> Social Media:
+  <a rel="nofollow" href="https://github.com/iamericanartist" title="Github"> Github </a> | 
+  <a rel="nofollow" href="https://www.linkedin.com/in/iamericanartist" title="LinkedIn"> LinkedIn </a>  | 
+  <a rel="nofollow" href="http://codepen.io/IAmericanArtist/" title="CodePen"> CodePen </a> | 
+  <a rel="nofollow" href="https://www.instagram.com/iamericanartist/" title="Instagram"> Instagram </a>
+</p>
 
 ***
 <div>
@@ -43,6 +42,3 @@ Theme used:
     http://www.bootstrapzero.com
     LicenseGPL | VersionBootstrap 3.3.4
  -->
-
-
-
