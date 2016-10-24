@@ -172,6 +172,12 @@ modal-body {
   padding: 2%;
 }
 
+.headshot {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
 
 section {
   padding: 70px 0;
@@ -181,7 +187,6 @@ section {
   height: 140px;
   margin-top: -70px;
   z-index: -1;
-  /*background-color: rgba(255,100,100,.5);*/
   background-color: #00505f;
   animation: skew 20s infinite;
 }
@@ -198,12 +203,10 @@ section {
 }
 
 
-
-/*.sectionTwo  {
-  box-shadow: 0 -10px 2px -10px rgba(0,0,0,0.5), 
-              0 -10px 30px -5px rgba(0,0,0,0.6);
+.sectionThree {
+  padding-bottom: 100px;
 }
-*/
+
 
 .techLogos{
   background-color: #eee;
@@ -450,10 +453,6 @@ footer {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~  HEADER MEDIA QUERY 768px+  ~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media(min-width:768px) {
-/*  .icon-med {
-    font-size: 50px;
-  }*/
-  
   header {
     min-height: 100%;
   }
@@ -701,6 +700,15 @@ img::-moz-selection {
   overflow: hidden;
   border-radius: 20px 0 20px 0;
 }*/
+.round1Right {
+  margin-right: 20px;
+  width: 15rem;
+  height: 15rem;
+  /*overflow: hidden;*/
+  /*border-radius: 1000px;*/
+  /*shape-outside: circle(50%);*/
+  margin-top: 30px;
+}
 .round2Right {
   margin-right: 20px;
   width: 15rem;
@@ -714,16 +722,22 @@ img::-moz-selection {
   margin-left: 20px;
   width: 15rem;
   height: 15rem;
-  overflow: hidden;
-  border-radius: 1000px;
-  shape-outside: circle(50%);
+  /*overflow: hidden;*/
+  /*border-radius: 1000px;*/
+  /*shape-outside: circle(50%);*/
   margin-top: 30px;
 }
 
+.featurette-image2 {
+  width: auto;
+  /*margin-left: -50%;*/
+  height: 100%;
+}
 
+/* for circular image needs*/
 .featurette-image {
   width: auto;
-  margin-left: -50%;
+  margin-left: -27%;
   height: 100%;
 }
 
@@ -759,3 +773,7 @@ p.lead {
   margin: 0 5% 10px;
 }
 
+.classImage {
+  margin: 20px 0;
+  border-radius: 10px;
+}
