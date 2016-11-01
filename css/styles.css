@@ -318,6 +318,7 @@ footer {
 .navbar-default .nav > li.active > a:focus:hover
 {
   background-color: transparent;
+  /*background-color: rgba(10,10,10,.5);*/
 }
 
 
@@ -325,7 +326,8 @@ footer {
 @media(min-width:768px) {
   .navbar-default {
     border-color: transparent;
-    background-color: transparent;
+    /*background-color: transparent;*/ /*NAVBAR COLOR AT ENTRY*/
+  background-color: rgba(10,10,10,.1);
     min-height: 60px;
   }
 
@@ -350,9 +352,9 @@ footer {
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: rgba(255,255,255,.7);
-    padding: 20px;
-    letter-spacing: 1.2px;
-    text-shadow: 1px 1px 1px rgba(10,10,10,0.7);
+    padding: 19px 10px;
+    letter-spacing: 1.1px;
+    /*text-shadow: 1px 1px 1px rgba(10,10,10,0.7);*/
   }
   /* "NAV OPTIONS" at "FULL SCREEN TOP" HOVER/FOCUS */
   .navbar-default .nav > li > a:hover,
