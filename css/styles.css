@@ -165,6 +165,15 @@ modal-body {
   text-align: left;
 }
 
+.modalCloser {
+  float: right;
+  background-color: #2f2F2f;
+  /*margin: -10px;*/
+}
+
+.modalName {
+  /*clear: both;*/
+}
 .aboutParagraph {
   line-height: normal;
   letter-spacing: normal;
