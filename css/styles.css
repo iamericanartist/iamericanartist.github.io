@@ -462,6 +462,7 @@ footer {
   
 }
 
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~  HEADER MEDIA QUERY 768px+  ~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media(min-width:768px) {
   header {
@@ -787,4 +788,62 @@ p.lead {
 .classImage {
   margin: 20px 0;
   border-radius: 10px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~  NAV MEDIA QUERY 414px+  ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media(min-width:414px) {
+  .featurette-heading {
+    margin-left: 0;
+  }
+  .featurette-image2 {
+  width: auto;
+  /*margin-left: -50%;*/
+  height: 100%;
+  }
+
+  /* for circular image needs*/
+  .featurette-image {
+    width: auto;
+    margin-left: -27%;
+    height: 100%;
+  }
+
+
+
+  /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+  .featurette-image.pull-left {
+    margin-right: 0px;
+  }
+  .featurette-image.pull-right {
+    margin-left: 0px;
+  }
+  .round1Right {
+  margin-right: 20px;
+  width: 15rem;
+  height: 15rem;
+  /*overflow: hidden;*/
+  /*border-radius: 1000px;*/
+  /*shape-outside: circle(50%);*/
+  margin-top: 30px;
+  }
+  .round2Right {
+    /*margin-right: 20px;*/
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 1000px;
+    shape-outside: circle(50%);
+    margin-top: 30px;
+  }
+  .round2Left {
+    /*margin-left: 20px;*/
+    width: 15rem;
+    height: 15rem;
+    /*overflow: hidden;*/
+    /*border-radius: 1000px;*/
+    /*shape-outside: circle(50%);*/
+    margin-top: 30px;
+  }
 }
