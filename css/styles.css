@@ -412,8 +412,10 @@ header {
   color: #fff;
   width: 100%;
   background-color: #c9c9c9;
-  background-image: url('../images/AllGood.jpg');
-  background-position: right;
+  background-image: url('../images/IMG_5902_EDIT.jpg');
+  /*background-image: url('../images/IMG_7255_EDIT.jpg');*/
+  /*background-image: url('../images/AllGood.jpg');*/
+  background-position: left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -705,39 +707,33 @@ img::-moz-selection {
   padding-top: 10px; /* Vertically center images part 1: add padding above and below text. */
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
 }
-/*.squaredUp {
-  margin-right: 10px;
-  width: 400px;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 20px 0 20px 0;
-}*/
+
 .round1Right {
-  margin-right: 20px;
   width: 15rem;
   height: 15rem;
-  /*overflow: hidden;*/
-  /*border-radius: 1000px;*/
-  /*shape-outside: circle(50%);*/
   margin-top: 30px;
 }
 .round2Right {
-  margin-right: 20px;
   width: 15rem;
   height: 15rem;
   overflow: hidden;
   border-radius: 1000px;
   shape-outside: circle(50%);
   margin-top: 30px;
+  float: left!important;
 }
-.round2Left {
-  margin-left: 20px;
+.round3Right {
   width: 15rem;
   height: 15rem;
-  /*overflow: hidden;*/
-  /*border-radius: 1000px;*/
-  /*shape-outside: circle(50%);*/
+  overflow: hidden;
   margin-top: 30px;
+  float: left!important;
+}
+.round2Left {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 30px;
+  float: right!important;
 }
 
 .featurette-image2 {
@@ -753,15 +749,6 @@ img::-moz-selection {
   height: 100%;
 }
 
-
-
-/* Give some space on the sides of the floated elements so text doesn't run right into it. */
-.featurette-image.pull-left {
-  margin-right: 40px;
-}
-.featurette-image.pull-right {
-  margin-left: 40px;
-}
 
 /* Thin out the marketing headings */
 .featurette-heading {
@@ -791,56 +778,19 @@ p.lead {
 }
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~  NAV MEDIA QUERY 420px-  ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~  NAV MEDIA QUERY 720px-  ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-@media(max-width:420px) {
+@media(max-width:720px) {
   .featurette-heading {
     margin-left: 0;
+    /*display: inline-block;*/
   }
-  .featurette-image2 {
-  width: auto;
-  /*margin-left: -50%;*/
-  height: 100%;
+  .round2Right {
+  shape-outside: none;
   }
-
-  /* for circular image needs*/
-  .featurette-image {
-    width: auto;
-    margin-left: -27%;
-    height: 100%;
-  }
-
-  /* Give some space on the sides of the floated elements so text doesn't run right into it. */
-/*  .featurette-image.pull-left {
-    margin-right: 0px;
-  }
-  .featurette-image.pull-right {
-    margin-left: 0px;
-  }*/
-  .round1Right {
-  width: 15rem;
-  height: 15rem;
-  /*margin-top: 30px;*/
-  margin: auto;
-  }
-/*  .round2Right {
-    width: 15rem;
-    height: 15rem;
-    overflow: hidden;
-    border-radius: 1000px;
-    shape-outside: circle(50%);
-    margin-top: 30px;
-  }*/
-  .round2Left {
-    width: 15rem;
-    height: 15rem;
-    /*margin-top: 30px;*/
+  .smartphoneFix {
     margin: auto;
-  }
-  .pull-right {
-    float: none;
-  }
-  .pull-left {
-    float: none;
+    float: none!important;
+    /*float: none;*/
   }
 }
