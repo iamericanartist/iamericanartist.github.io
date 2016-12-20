@@ -705,13 +705,7 @@ img::-moz-selection {
   padding-top: 10px; /* Vertically center images part 1: add padding above and below text. */
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
 }
-/*.squaredUp {
-  margin-right: 10px;
-  width: 400px;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 20px 0 20px 0;
-}*/
+
 .round1Right {
   margin-right: 20px;
   width: 15rem;
@@ -729,6 +723,15 @@ img::-moz-selection {
   border-radius: 1000px;
   shape-outside: circle(50%);
   margin-top: 30px;
+  float: left!important;
+}
+.round3Right {
+  margin-right: 20px;
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  margin-top: 30px;
+  float: left!important;
 }
 .round2Left {
   margin-left: 20px;
@@ -738,6 +741,7 @@ img::-moz-selection {
   /*border-radius: 1000px;*/
   /*shape-outside: circle(50%);*/
   margin-top: 30px;
+  float: right!important;
 }
 
 .featurette-image2 {
@@ -791,56 +795,42 @@ p.lead {
 }
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~  NAV MEDIA QUERY 420px-  ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~  NAV MEDIA QUERY 720px-  ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-@media(max-width:420px) {
+@media(max-width:720px) {
   .featurette-heading {
     margin-left: 0;
   }
-  .featurette-image2 {
+ /* .featurette-image2 {
   width: auto;
-  /*margin-left: -50%;*/
   height: 100%;
-  }
+  }*/
 
   /* for circular image needs*/
-  .featurette-image {
+/*  .featurette-image {
     width: auto;
     margin-left: -27%;
     height: 100%;
-  }
-
-  /* Give some space on the sides of the floated elements so text doesn't run right into it. */
-/*  .featurette-image.pull-left {
-    margin-right: 0px;
-  }
-  .featurette-image.pull-right {
-    margin-left: 0px;
   }*/
-  .round1Right {
+
+/*  .round1Right {
   width: 15rem;
   height: 15rem;
-  /*margin-top: 30px;*/
   margin: auto;
-  }
-/*  .round2Right {
-    width: 15rem;
-    height: 15rem;
-    overflow: hidden;
-    border-radius: 1000px;
-    shape-outside: circle(50%);
-    margin-top: 30px;
   }*/
-  .round2Left {
+
+/*  .round2Left {
     width: 15rem;
     height: 15rem;
-    /*margin-top: 30px;*/
+    margin: auto;
+  }*/
+.smartphoneFix {
     margin: auto;
   }
-  .pull-right {
+/*  .pull-right {
     float: none;
   }
   .pull-left {
     float: none;
-  }
+  }*/
 }
