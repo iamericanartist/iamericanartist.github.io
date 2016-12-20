@@ -791,9 +791,9 @@ p.lead {
 }
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~  NAV MEDIA QUERY 414px+  ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~  NAV MEDIA QUERY 420px-  ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-@media(min-width:414px) {
+@media(max-width:420px) {
   .featurette-heading {
     margin-left: 0;
   }
@@ -808,9 +808,7 @@ p.lead {
     width: auto;
     margin-left: -27%;
     height: 100%;
-  }
-
-
+  
 
   /* Give some space on the sides of the floated elements so text doesn't run right into it. */
   .featurette-image.pull-left {
