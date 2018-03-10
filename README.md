@@ -11,9 +11,9 @@ Thanks for looking! I appreciate your time, and would love to talk shop, grab a 
 
 Sincerely,
 
-Eric Denton
+Eric Denton <br> 
 ttyl@iamericanartist.com
-
+<br><br>
 
 <p align="center"> 
   <a rel="nofollow" href="https://github.com/iamericanartist" title="Github"> Github </a>  |  
@@ -42,7 +42,7 @@ Thank you for looking at the source code, by the way! I appreciate your time, an
 
 Sincerely,
 
-Eric Denton
+Eric Denton 
 ttyl@iamericanartist.com
 
 
