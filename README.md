@@ -4,7 +4,7 @@
 
 ### [NSS](http://nashvillesoftwareschool.com/) Cohort D14  
 ##### Instructors - [Joe Shephard](https://github.com/JoeShep)(Front-End) and [Scott Humphries](https://github.com/sscotth)(Back-End)  
-##### Advisors - [Caitlin Stein](https://github.com/C-Stein), [Callan Morrison](https://github.com/morecallan), and [Christina Young](https://github.com/ChristinaJYoung)  
+##### Advisors - [Caitlin Stein](https://github.com/C-Stein), [Callan Morrison](https://github.com/morecallan), [Christina Young](https://github.com/ChristinaJYoung), and [Mathew Ostrander](https://github.com/MAOstrander).
 ***
 
 Thanks for looking! I appreciate your time, and would love to talk shop, grab a beverage, or connect in whatever form suits you. I hope to hear from you soon.
