@@ -226,6 +226,7 @@ section {
 .techLogos img {
   margin: 4px 6px 10px;
   border-radius: 4px;
+  mix-blend-mode: darken;
 }
 
 aside {
